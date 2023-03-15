@@ -11,7 +11,8 @@
     <!-- styles-progect -->
     <link rel="stylesheet" href="./styles/main.css">    
     <link rel="stylesheet" href="./styles/header.css">    
-    <link rel="stylesheet" href="./styles/weaterNowBlock.css">    
+    <link rel="stylesheet" href="./styles/weater_now_block.css">    
+    <link rel="stylesheet" href="./styles/weater_now_block_media.css">    
     
 
     <title>Прогноз погоди</title>
@@ -19,18 +20,18 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
+        <div class="container p-3">
             <div class="row d-flex align-items-center">
-                <h1 class="header-text col-xl-3 col-md-5 d-flex justify-content-center">Прогноз Погоди</h1>
+                <h1 class="header-text col-xl-3 col-md-5 col-sm-12 d-flex justify-content-center">Прогноз Погоди</h1>
         
-                <div class="col-xl-5 col-md-7 btn-group header-button" role="group" aria-label="Basic example">
+                <div class="col-xl-5 col-md-7 col-sm-12 btn-group header-button" role="group" aria-label="Basic example">
                     <button type="button" class="btn">Сьогодні</button>
                     <button type="button" class="btn">Завтра</button>
                     <button type="button" class="btn">Після завтра</button>
                     <button type="button" class="btn">Тиждень</button>
                 </div>
 
-                <div class="col-xl-4 col-md-6 header-container-form">
+                <div class=" header-container-form col-xl-4 col-md-12">
                     <form action="" class = "header-form d-flex align-items-center justify-content-around">
                         <input type="text"placeholder="Введіть назву населеного пункта">
                         <button type="submit"><img src="./icons/search_magnifier.svg" class="img-fluid"></button>
@@ -42,7 +43,7 @@
     
     <section class="container">
         <div class="row weater-now-block">
-            <div class="weater-info-short-block col-3">
+            <div class="weater-info-short-block col-lg-3 col-12">
                 <h2 class="weater-city">Олександрія, Україна</h2>
                 <div class="weater-image">
                     <img class = "img-fluid" src="./image/WeaterType/gloomily.png">
@@ -50,7 +51,7 @@
                 <span class="weater-block-time">ЗАРАЗ 19:20</span>
             </div>
             
-            <div class="weater-info-full-block col-9">
+            <div class="weater-info-full-block col-lg-9 col-12">
                 <h2 class="weater-info-title">Прогноз погоди</h2>
     
                 <div class="weater-info-full">

@@ -1,0 +1,46 @@
+/* Weater Now Block Info < width: 992px  */
+
+@media screen and (max-device-width: 991px) {
+    .weater-info-short-block {
+        height: 246px;
+        border-radius: var(--border-radius-stnd) var(--border-radius-stnd) 0 0;
+    }
+    .weater-block-time{
+        display: none;
+    }
+    
+    .weater-info-full-block{
+        box-shadow: none;
+        border-radius: 0 0 var(--border-radius-stnd) var(--border-radius-stnd);
+    } 
+    
+    .weater-info-full {
+        display: block;    
+    }
+    .weater-info-t-bt-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    
+        width: auto;
+    }
+    
+    .next-weater{
+        margin: 0;
+    }
+    
+}
+
+/* Weater Now Block Info < width: 576px  */
+@media screen and (max-device-width: 576px) {
+    .container {
+        padding: 0;
+    }
+
+    .weater-info-short-block, .weater-info-full-block{ 
+        border-radius: 0;
+    }
+  }
+
+
+

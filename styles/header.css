@@ -5,6 +5,7 @@
 }
 
 .header-text{
+    box-sizing: border-box;
     margin-top: 10px;
     color: white;
     font-size: 180%;
