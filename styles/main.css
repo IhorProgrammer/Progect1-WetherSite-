@@ -1,0 +1,22 @@
+:root{
+    --background-color-gradient: linear-gradient(180deg, #56C2FF 0%, #DBFF00 100%);
+    --background-color: #56C2FF;
+    --border-radius-stnd: 20px;
+    --white: #FFFFFF;
+    
+
+    --font-inter: 'Inter';
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: var(--background-color-gradient);
+    background-color: var(--background-color);
+}
+
+

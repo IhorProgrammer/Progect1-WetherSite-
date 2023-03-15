@@ -1,22 +1,11 @@
-:root{
-    --background-color-gradient: linear-gradient(180deg, #56C2FF 0%, #DBFF00 100%);
-    --background-color: #56C2FF      
-}
-
-
-
-body{
-    
-    background: var(--background-color-gradient);
-    background-color: var(--background-color);
-}
+/* HEADER  */
 
 .header {
     background: #7A7A7A;
 }
 
-
 .header-text{
+    margin-top: 10px;
     color: white;
     font-size: 180%;
     font-style: normal;
@@ -50,7 +39,7 @@ body{
     align-items: center;
 
 
-    border-radius: 20px;
+    border-radius: var(--border-radius-stnd);
 }
 
 .header-form input{

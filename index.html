@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Use bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">    
+    
+    <!-- styles-progect -->
+    <link rel="stylesheet" href="./styles/main.css">    
+    <link rel="stylesheet" href="./styles/header.css">    
+    <link rel="stylesheet" href="./styles/weaterNowBlock.css">    
+    
+
     <title>Прогноз погоди</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -24,12 +33,50 @@
                 <div class="col-xl-4 col-md-6 header-container-form">
                     <form action="" class = "header-form d-flex align-items-center justify-content-around">
                         <input type="text"placeholder="Введіть назву населеного пункта">
-                        <button type="submit"><img src="./image/search_magnifier.svg" class="img-fluid" alt=""></button>
+                        <button type="submit"><img src="./icons/search_magnifier.svg" class="img-fluid"></button>
                     </form>
                 </div>
             </div>
         </div>
     </header>
+    
+    <section class="container">
+        <div class="row weater-now-block">
+            <div class="weater-info-short-block col-3">
+                <h2 class="weater-city">Олександрія, Україна</h2>
+                <div class="weater-image">
+                    <img class = "img-fluid" src="./image/WeaterType/gloomily.png">
+                </div>
+                <span class="weater-block-time">ЗАРАЗ 19:20</span>
+            </div>
+            
+            <div class="weater-info-full-block col-9">
+                <h2 class="weater-info-title">Прогноз погоди</h2>
+    
+                <div class="weater-info-full">
+                    <p class="weater-info-full-text">
+                        Відчувається як :+4 ° <br>
+                        Мін./макс. температура:+1° / +10° <br>
+                        Вологість:68 % <br>
+                        Тиск:758 мм <br>
+                        Вітер:6.1 м/с <br>
+                        ймовірність опадів:2 %
+                    </p>
+                    <div class="weater-info-t-bt-block">
+                        <h1 class="weater-info-full-temperature">+8°</h1>
+        
+                        <button class="next-weater">
+                            <h3>Вівторок</h3>
+                            <img src="./icons/arrow_right_weather-info.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <section>
         <div style="height: 1907px;"></div>
