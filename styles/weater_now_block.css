@@ -1,0 +1,101 @@
+/* Weater Now Block Info   */
+
+.weater-now-block{
+    margin: 3% 0;
+}
+
+.weater-info-short-block {
+    text-align: center;
+    background-color: var(--white);
+    border-radius: var(--border-radius-stnd) 0px 0px var(--border-radius-stnd);
+}
+
+.weater-city {
+    margin: 20px 0;
+
+    font-family: var(--font-inter);
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.weater-image {
+    margin: 0 auto;
+
+    width: 175px;
+    height: 175px;
+}
+
+.weater-block-time {
+    margin: 5px 0;
+
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.weater-info-full-block {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.weater-info-full {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.weater-info-t-bt-block{
+    width: 200px;
+}
+
+
+.weater-info-title {
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.weater-info-full-text {
+    font-family: var(--font-inter);
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.weater-info-full-temperature {
+    font-size: 90px;
+    letter-spacing: 5px;
+    color: #000000;
+}
+
+.next-weater {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 156px;
+    height: 46px;
+
+    margin: 35px 0 0 auto;
+
+    background-color: #000000;
+    border-radius: 86px;
+}
+
+.next-weater:hover{
+    cursor: pointer;
+}
+
+.next-weater > h3{    
+    margin: 0;
+
+    font-family: var(--font-inter);
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
